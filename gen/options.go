@@ -15,11 +15,11 @@ import (
 	"github.com/go-faster/yaml"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/urlpath"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/jghiloni/ogen/gen/ir"
+	"github.com/jghiloni/ogen/internal/urlpath"
+	"github.com/jghiloni/ogen/jsonschema"
+	"github.com/jghiloni/ogen/location"
+	"github.com/jghiloni/ogen/openapi"
 )
 
 // Options is Generator options.
@@ -60,7 +60,7 @@ type ParseOptions struct {
 	InferSchemaType bool `json:"infer_types" yaml:"infer_types"`
 	// AllowRemote enables remote references resolving.
 	//
-	// See https://github.com/ogen-go/ogen/issues/385.
+	// See https://github.com/jghiloni/ogen/issues/385.
 	AllowRemote bool `json:"allow_remote" yaml:"allow_remote"`
 	// RootURL is root URL for remote references resolving.
 	RootURL *url.URL `json:"-" yaml:"-"`
@@ -156,6 +156,8 @@ type GenerateOptions struct {
 
 	// Filters contains filters to skip operations.
 	Filters Filters `json:"filters" yaml:"filters"`
+
+	VanityImport string `json:"vanity_import,omitempty" yaml:"vanity_import,omitempty"`
 
 	// IgnoreNotImplemented contains ErrNotImplemented messages to ignore.
 	IgnoreNotImplemented []string `json:"ignore_not_implemented" yaml:"ignore_not_implemented"`

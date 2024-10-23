@@ -1,8 +1,8 @@
 package openapi
 
 import (
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/jghiloni/ogen/jsonschema"
+	"github.com/jghiloni/ogen/location"
 )
 
 // Example is an OpenAPI Example.

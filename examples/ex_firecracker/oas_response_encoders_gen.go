@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	ht "github.com/ogen-go/ogen/http"
+	ht "github.com/jghiloni/ogen/http"
 )
 
 func encodeCreateSnapshotResponse(response CreateSnapshotRes, w http.ResponseWriter, span trace.Span) error {

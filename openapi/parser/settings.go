@@ -3,9 +3,9 @@ package parser
 import (
 	"net/url"
 
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/jghiloni/ogen/jsonpointer"
+	"github.com/jghiloni/ogen/jsonschema"
+	"github.com/jghiloni/ogen/location"
 )
 
 // Settings is parser settings.

@@ -17,9 +17,9 @@ import (
 	"github.com/google/uuid"
 	"go.uber.org/multierr"
 
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/jghiloni/ogen/json"
+	"github.com/jghiloni/ogen/ogenerrors"
+	"github.com/jghiloni/ogen/validate"
 )
 
 func (s *Server) decodeTestQueryParameterRequest(r *http.Request) (

@@ -835,7 +835,7 @@ func (s *OptTime) SetFake() {
 func (s *OptURI) SetFake() {
 	var elem url.URL
 	{
-		elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+		elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 	}
 	s.SetTo(elem)
 }
@@ -1607,7 +1607,7 @@ func (s *TestRequestFormatTestReq) SetFake() {
 			for i := 0; i < 0; i++ {
 				var elem url.URL
 				{
-					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 				}
 				s.RequiredArrayStringURI = append(s.RequiredArrayStringURI, elem)
 			}
@@ -2685,7 +2685,7 @@ func (s *TestRequestFormatTestReq) SetFake() {
 					for i := 0; i < 0; i++ {
 						var elemElem url.URL
 						{
-							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 						}
 						elem = append(elem, elemElem)
 					}
@@ -2980,7 +2980,7 @@ func (s *TestRequestFormatTestReq) SetFake() {
 	}
 	{
 		{
-			s.RequiredStringURI = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.RequiredStringURI = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -3659,7 +3659,7 @@ func (s *TestRequestFormatTestReq) SetFake() {
 			for i := 0; i < 0; i++ {
 				var elem url.URL
 				{
-					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 				}
 				s.OptionalArrayStringURI = append(s.OptionalArrayStringURI, elem)
 			}
@@ -4737,7 +4737,7 @@ func (s *TestRequestFormatTestReq) SetFake() {
 					for i := 0; i < 0; i++ {
 						var elemElem url.URL
 						{
-							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 						}
 						elem = append(elem, elemElem)
 					}
@@ -5719,7 +5719,7 @@ func (s *TestRequestRequiredFormatTestReq) SetFake() {
 			for i := 0; i < 0; i++ {
 				var elem url.URL
 				{
-					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 				}
 				s.RequiredArrayStringURI = append(s.RequiredArrayStringURI, elem)
 			}
@@ -6797,7 +6797,7 @@ func (s *TestRequestRequiredFormatTestReq) SetFake() {
 					for i := 0; i < 0; i++ {
 						var elemElem url.URL
 						{
-							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 						}
 						elem = append(elem, elemElem)
 					}
@@ -7092,7 +7092,7 @@ func (s *TestRequestRequiredFormatTestReq) SetFake() {
 	}
 	{
 		{
-			s.RequiredStringURI = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.RequiredStringURI = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -7771,7 +7771,7 @@ func (s *TestRequestRequiredFormatTestReq) SetFake() {
 			for i := 0; i < 0; i++ {
 				var elem url.URL
 				{
-					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 				}
 				s.OptionalArrayStringURI = append(s.OptionalArrayStringURI, elem)
 			}
@@ -8849,7 +8849,7 @@ func (s *TestRequestRequiredFormatTestReq) SetFake() {
 					for i := 0; i < 0; i++ {
 						var elemElem url.URL
 						{
-							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 						}
 						elem = append(elem, elemElem)
 					}
@@ -9831,7 +9831,7 @@ func (s *TestResponseFormatTestOK) SetFake() {
 			for i := 0; i < 0; i++ {
 				var elem url.URL
 				{
-					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 				}
 				s.RequiredArrayStringURI = append(s.RequiredArrayStringURI, elem)
 			}
@@ -10909,7 +10909,7 @@ func (s *TestResponseFormatTestOK) SetFake() {
 					for i := 0; i < 0; i++ {
 						var elemElem url.URL
 						{
-							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 						}
 						elem = append(elem, elemElem)
 					}
@@ -11204,7 +11204,7 @@ func (s *TestResponseFormatTestOK) SetFake() {
 	}
 	{
 		{
-			s.RequiredStringURI = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.RequiredStringURI = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -11883,7 +11883,7 @@ func (s *TestResponseFormatTestOK) SetFake() {
 			for i := 0; i < 0; i++ {
 				var elem url.URL
 				{
-					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+					elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 				}
 				s.OptionalArrayStringURI = append(s.OptionalArrayStringURI, elem)
 			}
@@ -12961,7 +12961,7 @@ func (s *TestResponseFormatTestOK) SetFake() {
 					for i := 0; i < 0; i++ {
 						var elemElem url.URL
 						{
-							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+							elemElem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 						}
 						elem = append(elem, elemElem)
 					}

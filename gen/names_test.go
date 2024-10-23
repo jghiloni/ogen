@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/jghiloni/ogen/jsonschema"
 )
 
 func TestNames(t *testing.T) {

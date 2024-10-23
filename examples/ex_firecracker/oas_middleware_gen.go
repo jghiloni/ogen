@@ -3,7 +3,7 @@
 package api
 
 import (
-	"github.com/ogen-go/ogen/middleware"
+	"github.com/jghiloni/ogen/middleware"
 )
 
 // Middleware is middleware type.

@@ -3,10 +3,10 @@ package parser
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/jghiloni/ogen"
+	"github.com/jghiloni/ogen/internal/xmaps"
+	"github.com/jghiloni/ogen/jsonpointer"
+	"github.com/jghiloni/ogen/openapi"
 )
 
 func (p *parser) parseWebhook(name string, item *ogen.PathItem, ctx *jsonpointer.ResolveCtx) (openapi.Webhook, error) {
@@ -27,13 +27,13 @@ func (p *parser) parseWebhooks(webhooks map[string]*ogen.PathItem) (r []openapi.
 		return nil, nil
 	}
 	var (
-		locator = p.rootLoc.Field("webhooks")
+		locator = p.rootLoc.Field("x-webhooks")
 		ctx     = p.resolveCtx()
 	)
 	defer func() {
 		rerr = p.wrapLocation(p.file(ctx), locator, rerr)
 	}()
-	if err := p.requireMinorVersion("webhooks", 1); err != nil {
+	if err := p.requireMinorVersion("webhooks", 0); err != nil {
 		return nil, err
 	}
 

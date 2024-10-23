@@ -11,10 +11,10 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/jghiloni/ogen/gen/ir"
+	"github.com/jghiloni/ogen/internal/xmaps"
+	"github.com/jghiloni/ogen/jsonschema"
+	"github.com/jghiloni/ogen/location"
 )
 
 func canUseTypeDiscriminator(sum []*ir.Type, isOneOf bool) bool {

@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/jghiloni/ogen/internal/xmaps"
+	"github.com/jghiloni/ogen/jsonschema"
+	"github.com/jghiloni/ogen/openapi"
 )
 
 // Tag of Field.

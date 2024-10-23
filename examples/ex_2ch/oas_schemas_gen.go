@@ -5,7 +5,7 @@ package api
 import (
 	"github.com/go-faster/errors"
 
-	ht "github.com/ogen-go/ogen/http"
+	ht "github.com/jghiloni/ogen/http"
 )
 
 // APICaptcha2chcaptchaShowGetNotFound is response for APICaptcha2chcaptchaShowGet operation.

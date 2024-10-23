@@ -5,7 +5,7 @@ package api
 import (
 	"github.com/google/uuid"
 
-	ht "github.com/ogen-go/ogen/http"
+	ht "github.com/jghiloni/ogen/http"
 )
 
 // OnlyFormOK is response for OnlyForm operation.

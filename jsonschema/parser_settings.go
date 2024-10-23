@@ -3,7 +3,7 @@ package jsonschema
 import (
 	"errors"
 
-	"github.com/ogen-go/ogen/location"
+	"github.com/jghiloni/ogen/location"
 )
 
 // Settings is parser settings.

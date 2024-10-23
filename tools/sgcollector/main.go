@@ -16,7 +16,7 @@ import (
 	"go.uber.org/zap/zapcore"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ogen-go/ogen/internal/ogenzap"
+	"github.com/jghiloni/ogen/internal/ogenzap"
 )
 
 func run(ctx context.Context) error {
@@ -124,7 +124,7 @@ func run(ctx context.Context) error {
 			)
 		}
 		for i := range queries {
-			queries[i] += ` count:all -repo:^github\.com/ogen-go/corpus$`
+			queries[i] += ` count:all -repo:^github\.com/jghiloni/corpus$`
 		}
 	}
 	if f := *filter; f != "" {

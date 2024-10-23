@@ -10,8 +10,8 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/jghiloni/ogen/ogenerrors"
+	"github.com/jghiloni/ogen/validate"
 )
 
 func decodeDataCreateResponse(resp *http.Response) (res *Data, _ error) {

@@ -1,8 +1,8 @@
 package gen
 
 import (
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/jghiloni/ogen/gen/ir"
+	"github.com/jghiloni/ogen/jsonschema"
 )
 
 // genctx is a generation context.

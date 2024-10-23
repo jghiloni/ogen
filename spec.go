@@ -6,8 +6,8 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/go-faster/yaml"
 
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/jghiloni/ogen/jsonschema"
+	"github.com/jghiloni/ogen/location"
 )
 
 type (
@@ -60,7 +60,7 @@ type Spec struct {
 	//
 	// The key name is a unique string to refer to each webhook, while the (optionally referenced)
 	// PathItem Object describes a request that may be initiated by the API provider and the expected responses.
-	Webhooks map[string]*PathItem `json:"webhooks,omitempty" yaml:"webhooks,omitempty"`
+	Webhooks map[string]*PathItem `json:"x-webhooks,omitempty" yaml:"x-webhooks,omitempty"`
 	// An element to hold various schemas for the document.
 	Components *Components `json:"components,omitempty" yaml:"components,omitempty"`
 	// A declaration of which security mechanisms can be used across the API.

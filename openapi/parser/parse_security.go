@@ -7,11 +7,11 @@ import (
 	"github.com/go-faster/errors"
 	"golang.org/x/exp/maps"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/location"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/jghiloni/ogen"
+	"github.com/jghiloni/ogen/internal/xmaps"
+	"github.com/jghiloni/ogen/jsonpointer"
+	"github.com/jghiloni/ogen/location"
+	"github.com/jghiloni/ogen/openapi"
 )
 
 func (p *parser) parseSecurityScheme(

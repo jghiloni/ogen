@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/jghiloni/ogen/ogenregex"
 )
 
 func TestEmail(t *testing.T) {

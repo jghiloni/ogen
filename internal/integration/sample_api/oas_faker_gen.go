@@ -1279,7 +1279,7 @@ func (s *OptTime) SetFake() {
 func (s *OptURI) SetFake() {
 	var elem url.URL
 	{
-		elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+		elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 	}
 	s.SetTo(elem)
 }
@@ -1367,7 +1367,7 @@ func (s *Pet) SetFake() {
 	}
 	{
 		{
-			s.URI = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.URI = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{

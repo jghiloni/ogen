@@ -9,8 +9,8 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/stretchr/testify/require"
 
-	api "github.com/ogen-go/ogen/internal/integration/test_allof"
-	"github.com/ogen-go/ogen/validate"
+	api "github.com/jghiloni/ogen/internal/integration/test_allof"
+	"github.com/jghiloni/ogen/validate"
 )
 
 type allofTestServer struct {

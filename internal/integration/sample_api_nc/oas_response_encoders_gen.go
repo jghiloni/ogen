@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	ht "github.com/ogen-go/ogen/http"
+	ht "github.com/jghiloni/ogen/http"
 )
 
 func encodeDataGetFormatResponse(response string, w http.ResponseWriter, span trace.Span) error {

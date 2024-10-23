@@ -16,13 +16,14 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/tools/imports"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/jghiloni/ogen/gen/ir"
+	"github.com/jghiloni/ogen/internal/xmaps"
+	"github.com/jghiloni/ogen/ogenregex"
 )
 
 type TemplateConfig struct {
 	Package           string
+	VanityImport      string
 	Operations        []*ir.Operation
 	DefaultOperations []*ir.Operation
 	OperationGroups   []*ir.OperationGroup
@@ -252,6 +253,7 @@ func (g *Generator) WriteSource(fs FileSystem, pkgName string) error {
 	}
 	cfg := TemplateConfig{
 		Package:                   pkgName,
+		VanityImport:              g.opt.VanityImport,
 		Operations:                g.operations,
 		DefaultOperations:         g.defaultOperations,
 		OperationGroups:           g.operationGroups,

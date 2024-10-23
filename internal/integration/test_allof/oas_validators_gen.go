@@ -5,7 +5,7 @@ package api
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/validate"
+	"github.com/jghiloni/ogen/validate"
 )
 
 func (s *Location) Validate() error {

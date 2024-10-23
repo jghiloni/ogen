@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
+	ht "github.com/jghiloni/ogen/http"
+	"github.com/jghiloni/ogen/middleware"
+	"github.com/jghiloni/ogen/ogenerrors"
 )
 
 func recordError(string, error) {}

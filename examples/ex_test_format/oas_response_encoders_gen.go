@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/json"
+	"github.com/jghiloni/ogen/json"
 )
 
 func encodeTestQueryParameterResponse(response *Error, w http.ResponseWriter, span trace.Span) error {

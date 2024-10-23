@@ -14,8 +14,8 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/google/uuid"
 
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/jghiloni/ogen/json"
+	"github.com/jghiloni/ogen/validate"
 )
 
 // Encode implements json.Marshaler.

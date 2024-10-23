@@ -11,10 +11,10 @@ import (
 
 	"github.com/go-faster/errors"
 
-	ogenjson "github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/location"
-	"github.com/ogen-go/ogen/ogenregex"
+	ogenjson "github.com/jghiloni/ogen/json"
+	"github.com/jghiloni/ogen/jsonpointer"
+	"github.com/jghiloni/ogen/location"
+	"github.com/jghiloni/ogen/ogenregex"
 )
 
 const (

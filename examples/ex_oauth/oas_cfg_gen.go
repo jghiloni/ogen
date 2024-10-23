@@ -9,10 +9,10 @@ import (
 	"go.opentelemetry.io/otel/metric"
 	"go.opentelemetry.io/otel/trace"
 
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/otelogen"
+	ht "github.com/jghiloni/ogen/http"
+	"github.com/jghiloni/ogen/middleware"
+	"github.com/jghiloni/ogen/ogenerrors"
+	"github.com/jghiloni/ogen/otelogen"
 )
 
 var (

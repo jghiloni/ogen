@@ -5,7 +5,7 @@ package techempower
 import (
 	"context"
 
-	ht "github.com/ogen-go/ogen/http"
+	ht "github.com/jghiloni/ogen/http"
 )
 
 // UnimplementedHandler is no-op Handler which returns http.ErrNotImplemented.

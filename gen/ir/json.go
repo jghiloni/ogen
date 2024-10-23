@@ -4,10 +4,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ogen-go/ogen/internal/bitset"
-	"github.com/ogen-go/ogen/internal/naming"
-	"github.com/ogen-go/ogen/internal/xslices"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/jghiloni/ogen/internal/bitset"
+	"github.com/jghiloni/ogen/internal/naming"
+	"github.com/jghiloni/ogen/internal/xslices"
+	"github.com/jghiloni/ogen/jsonschema"
 )
 
 // JSON returns json encoding/decoding rules for t.

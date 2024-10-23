@@ -15,10 +15,10 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/otelogen"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/jghiloni/ogen/conv"
+	ht "github.com/jghiloni/ogen/http"
+	"github.com/jghiloni/ogen/otelogen"
+	"github.com/jghiloni/ogen/uri"
 )
 
 // Invoker invokes operations described by OpenAPI v3 specification.
@@ -76,7 +76,7 @@ type Invoker interface {
 	OctetStreamEmptySchema(ctx context.Context) (OctetStreamEmptySchemaOK, error)
 	// OptionalHeaders invokes optionalHeaders operation.
 	//
-	// Https://github.com/ogen-go/ogen/issues/822.
+	// Https://github.com/jghiloni/ogen/issues/822.
 	//
 	// GET /optionalHeaders
 	OptionalHeaders(ctx context.Context) (*OptionalHeadersOK, error)
@@ -1037,7 +1037,7 @@ func (c *Client) sendOctetStreamEmptySchema(ctx context.Context) (res OctetStrea
 
 // OptionalHeaders invokes optionalHeaders operation.
 //
-// Https://github.com/ogen-go/ogen/issues/822.
+// Https://github.com/jghiloni/ogen/issues/822.
 //
 // GET /optionalHeaders
 func (c *Client) OptionalHeaders(ctx context.Context) (*OptionalHeadersOK, error) {

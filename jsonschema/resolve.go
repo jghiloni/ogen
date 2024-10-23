@@ -6,8 +6,8 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/yaml"
 
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/location"
+	"github.com/jghiloni/ogen/jsonpointer"
+	"github.com/jghiloni/ogen/location"
 )
 
 // ReferenceResolver resolves JSON schema references.

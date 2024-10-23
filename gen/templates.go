@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/naming"
+	"github.com/jghiloni/ogen/gen/ir"
+	"github.com/jghiloni/ogen/internal/naming"
 )
 
 // OperationElem is variable name for generating per-operation functions.

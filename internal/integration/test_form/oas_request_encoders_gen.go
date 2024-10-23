@@ -12,9 +12,9 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/jghiloni/ogen/conv"
+	ht "github.com/jghiloni/ogen/http"
+	"github.com/jghiloni/ogen/uri"
 )
 
 func encodeOnlyFormRequest(

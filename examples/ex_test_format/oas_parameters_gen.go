@@ -13,11 +13,11 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/google/uuid"
 
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/jghiloni/ogen/conv"
+	"github.com/jghiloni/ogen/middleware"
+	"github.com/jghiloni/ogen/ogenerrors"
+	"github.com/jghiloni/ogen/uri"
+	"github.com/jghiloni/ogen/validate"
 )
 
 // TestQueryParameterParams is parameters of test_query_parameter operation.

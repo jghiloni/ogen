@@ -8,13 +8,13 @@ import (
 	"github.com/go-faster/errors"
 	"golang.org/x/exp/maps"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
-	"github.com/ogen-go/ogen/openapi"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/jghiloni/ogen"
+	"github.com/jghiloni/ogen/internal/xmaps"
+	"github.com/jghiloni/ogen/jsonpointer"
+	"github.com/jghiloni/ogen/jsonschema"
+	"github.com/jghiloni/ogen/location"
+	"github.com/jghiloni/ogen/openapi"
+	"github.com/jghiloni/ogen/uri"
 )
 
 type refKey = jsonpointer.RefKey
@@ -121,31 +121,31 @@ func Parse(spec *ogen.Spec, s Settings) (_ *openapi.API, rerr error) {
 		return nil, errors.Wrap(err, "parse version")
 	}
 
-	components, err := p.parseComponents(spec.Components)
-	if err != nil {
-		return nil, errors.Wrap(err, "parse components")
-	}
-
-	if err := p.parsePathItems(); err != nil {
-		return nil, errors.Wrap(err, "parse path items")
-	}
-
-	servers, err := p.parseServers(p.spec.Servers, p.resolveCtx())
-	if err != nil {
-		return nil, errors.Wrap(err, "parse servers")
-	}
-
 	webhooks, err := p.parseWebhooks(p.spec.Webhooks)
 	if err != nil {
 		return nil, errors.Wrap(err, "parse webhooks")
 	}
 
+	// components, err := p.parseComponents(spec.Components)
+	// if err != nil {
+	// 	return nil, errors.Wrap(err, "parse components")
+	// }
+
+	// if err := p.parsePathItems(); err != nil {
+	// 	return nil, errors.Wrap(err, "parse path items")
+	// }
+
+	// servers, err := p.parseServers(p.spec.Servers, p.resolveCtx())
+	// if err != nil {
+	// 	return nil, errors.Wrap(err, "parse servers")
+	// }
+
 	return &openapi.API{
 		Version:    p.version,
-		Servers:    servers,
-		Operations: p.operations,
+		Servers:    nil,
+		Operations: nil,
 		Webhooks:   webhooks,
-		Components: components,
+		Components: nil,
 	}, nil
 }
 

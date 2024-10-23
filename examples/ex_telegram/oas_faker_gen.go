@@ -2158,7 +2158,7 @@ func (s *InlineQueryResultAudio) SetFake() {
 	}
 	{
 		{
-			s.AudioURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.AudioURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -2741,7 +2741,7 @@ func (s *InlineQueryResultDocument) SetFake() {
 	}
 	{
 		{
-			s.DocumentURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.DocumentURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -2819,7 +2819,7 @@ func (s *InlineQueryResultGif) SetFake() {
 	}
 	{
 		{
-			s.GIFURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.GIFURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -2839,7 +2839,7 @@ func (s *InlineQueryResultGif) SetFake() {
 	}
 	{
 		{
-			s.ThumbURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.ThumbURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -2974,7 +2974,7 @@ func (s *InlineQueryResultMpeg4Gif) SetFake() {
 	}
 	{
 		{
-			s.Mpeg4URL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.Mpeg4URL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -2994,7 +2994,7 @@ func (s *InlineQueryResultMpeg4Gif) SetFake() {
 	}
 	{
 		{
-			s.ThumbURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.ThumbURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -3055,12 +3055,12 @@ func (s *InlineQueryResultPhoto) SetFake() {
 	}
 	{
 		{
-			s.PhotoURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.PhotoURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
 		{
-			s.ThumbURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.ThumbURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -3210,7 +3210,7 @@ func (s *InlineQueryResultVideo) SetFake() {
 	}
 	{
 		{
-			s.VideoURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.VideoURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -3220,7 +3220,7 @@ func (s *InlineQueryResultVideo) SetFake() {
 	}
 	{
 		{
-			s.ThumbURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.ThumbURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -3296,7 +3296,7 @@ func (s *InlineQueryResultVoice) SetFake() {
 	}
 	{
 		{
-			s.VoiceURL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.VoiceURL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -4002,7 +4002,7 @@ func (s *Location) SetFake() {
 func (s *LoginUrl) SetFake() {
 	{
 		{
-			s.URL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.URL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -5048,7 +5048,7 @@ func (s *OptSuccessfulPayment) SetFake() {
 func (s *OptURI) SetFake() {
 	var elem url.URL
 	{
-		elem = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+		elem = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 	}
 	s.SetTo(elem)
 }
@@ -7659,7 +7659,7 @@ func (s *SetStickerSetThumb) SetFake() {
 func (s *SetWebhook) SetFake() {
 	{
 		{
-			s.URL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.URL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{
@@ -8335,7 +8335,7 @@ func (s *VoiceChatStarted) SetFake() {
 func (s *WebhookInfo) SetFake() {
 	{
 		{
-			s.URL = url.URL{Scheme: "https", Host: "github.com", Path: "/ogen-go/ogen"}
+			s.URL = url.URL{Scheme: "https", Host: "github.com", Path: "/jghiloni/ogen"}
 		}
 	}
 	{

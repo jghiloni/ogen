@@ -9,7 +9,7 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/validate"
+	"github.com/jghiloni/ogen/validate"
 )
 
 // Encode encodes AllRequestBodiesApplicationJSON as json.
